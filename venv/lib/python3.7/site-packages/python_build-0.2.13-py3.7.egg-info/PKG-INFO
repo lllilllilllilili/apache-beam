@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: python-build
+Version: 0.2.13
+Summary: Tool to download and build python based upon pyenv.
+Home-page: UNKNOWN
+Author: Colm O'Connor
+Author-email: colm.oconnor.github@gmail.com
+License: MIT
+Description: Python-Build
+        ============
+        
+        BuildPython is a python library to download and build a specified version of python
+        into a specified directory.
+        
+        That's it.
+        
+        The code is basically derived from pyenv but provides a bit of a nicer wrapper.
+        
+        It was built for use with http://hitchtest.com/ so that you can test the same code with multiple versions of python.
+        
+        
+        Use
+        ===
+        
+        Install::
+        
+          $ pip install python-build
+        
+        Use in python::
+        
+          >>> import python_build
+          >>> python_build.python_build("2.7.3", "/home/user/projectdirectory/py273")
+        
+        Use outside of python::
+        
+          $ python-build 2.7.3 /home/user/projectdirectory/py273
+        
+        Help::
+        
+          $ python-build --help
+        
+Keywords: build download install python versions
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4

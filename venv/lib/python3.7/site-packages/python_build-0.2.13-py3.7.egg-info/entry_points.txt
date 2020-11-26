@@ -1,0 +1,3 @@
+[console_scripts]
+python-build = python_build:build.run
+
